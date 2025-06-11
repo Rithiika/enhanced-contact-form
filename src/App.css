@@ -1,0 +1,98 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f2f2;
+  color: #121111; /* Set dark text color for all */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background-color: #232629;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* ContactForm styles */
+.contact-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ecf0f3;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #111; /* Ensures text inside container is dark */
+}
+
+.contact-form-container h2 {
+  margin-bottom: 10px;
+}
+
+.contact-details {
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+/* Shared Form styles */
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form select,
+.form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;  /* White background */
+  color: #111111;             /* Dark text color */
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  color: #555; /* Slightly lighter gray placeholder for better UX */
+}
+
+.form button {
+  padding: 10px;
+  font-size: 1rem;
+  background: #2982e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #4892e1;
+}
+
+/* HomeContact styles */
+.home-contact-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #edeff2;
+  border-radius: 8px;
+  text-align: center;
+  color: #111; /* Ensure text inside is visible */
+}
+
+.home-contact-container h2 {
+  margin-bottom: 15px;
+}
